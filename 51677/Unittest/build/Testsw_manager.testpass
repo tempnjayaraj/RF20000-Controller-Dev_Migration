@@ -1,0 +1,18 @@
+./test/Testsw_manager.c:24:test_commence_uis_sw_update:PASS
+./test/Testsw_manager.c:30:test_cancel_update:PASS
+./test/Testsw_manager.c:37:test_commence_gs_sw_update:PASS
+./test/Testsw_manager.c:45:test_commence_gs_sw_update_1:PASS
+./test/Testsw_manager.c:53:test_commence_gs_sw_update_2:PASS
+./test/Testsw_manager.c:62:test_ui_update_status:PASS
+./test/Testsw_manager.c:69:test_check4gsfw:PASS
+./test/Testsw_manager.c:79:test_check4gsfw_1:PASS
+./test/Testsw_manager.c:90:test_check4gsfw_2:PASS
+./test/Testsw_manager.c:100:test_check4uifw:PASS
+./test/Testsw_manager.c:110:test_check4uifw_1:PASS
+./test/Testsw_manager.c:122:test_check4uifw_2:PASS
+./test/Testsw_manager.c:131:test_check4uifw_4:PASS
+./test/Testsw_manager.c:141:test_ui_gs_firmware_update_pause:PASS
+./test/Testsw_manager.c:156:test_dummy:PASS
+-----------------------
+15 Tests 0 Failures 0 Ignored
+OK

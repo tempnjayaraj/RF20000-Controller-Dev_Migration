@@ -1,0 +1,5 @@
+./test/Testmcg.c:21:test_PLL_Init:IGNORE: CANNOT TEST PLL_Init because of while loop waits
+./test/Testmcg.c:23:test_dummy:PASS
+-----------------------
+2 Tests 0 Failures 1 Ignored
+OK

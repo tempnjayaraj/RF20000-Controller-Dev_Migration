@@ -1,0 +1,13 @@
+./test/Testzigbee.c:22:test_zigbee_init:PASS
+./test/Testzigbee.c:27:test_UART5_Init:PASS
+./test/Testzigbee.c:34:test_enable_datastream:PASS
+./test/Testzigbee.c:39:test_request_statusbytes:PASS
+./test/Testzigbee.c:44:test_request_statusbytes_1:PASS
+./test/Testzigbee.c:57:test_request_statusbytes_2:IGNORE: Wireles IDX went to 0x03, which is a memory out of bounds issue
+./test/Testzigbee.c:60:test_send_wireless_cmd:PASS
+./test/Testzigbee.c:78:test_receive_wireless_cmd:PASS
+./test/Testzigbee.c:144:test_wireless_handshake:PASS
+./test/Testzigbee.c:149:test_dummy:PASS
+-----------------------
+10 Tests 0 Failures 1 Ignored
+OK

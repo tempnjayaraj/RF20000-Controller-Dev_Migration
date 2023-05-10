@@ -1,0 +1,60 @@
+./test/Testadc.c:47:test_adc_init2:PASS
+./test/Testadc.c:51:test_get_temp:PASS
+./test/Testadc.c:57:test_irms2_adc_result:PASS
+./test/Testadc.c:67:test_irms2_adc_result_2:PASS
+./test/Testadc.c:80:test_irms2_adc_result_3:PASS
+./test/Testadc.c:94:test_irms2_adc_result_4:PASS
+./test/Testadc.c:109:test_irms2_adc_result_5:PASS
+./test/Testadc.c:128:test_irms2_adc_result_6:PASS
+./test/Testadc.c:142:test_irms2_adc_result_7:PASS
+./test/Testadc.c:153:test_irms2_adc_result_8:PASS
+./test/Testadc.c:178:test_irms2_adc_result_9:PASS
+./test/Testadc.c:192:test_irms2_adc_result_fast_idx:PASS
+./test/Testadc.c:226:test_irms2_adc_result_10:PASS
+./test/Testadc.c:238:test_irms2_adc_result_11:PASS
+./test/Testadc.c:255:test_irms2_adc_result_12:PASS
+./test/Testadc.c:270:test_irms2_adc_result_13:PASS
+./test/Testadc.c:288:test_irms2_adc_result_14:PASS
+./test/Testadc.c:301:test_irms2_adc_result_15:PASS
+./test/Testadc.c:314:test_irms2_adc_result_16:PASS
+./test/Testadc.c:327:test_irms_overcurrent_2:PASS
+./test/Testadc.c:353:test_irms_overcurrent_1:PASS
+./test/Testadc.c:377:test_irms_overcurrent_3:PASS
+./test/Testadc.c:403:test_irms_overcurrent_4:PASS
+./test/Testadc.c:427:test_irms_overcurrent_coag_on:PASS
+./test/Testadc.c:439:test_irms_overcurrent_pulse_window:PASS
+./test/Testadc.c:449:test_ADC_Cal_calfail:PASS
+./test/Testadc.c:458:test_ADC_Cal_calpass:PASS
+./test/Testadc.c:467:test_legacy_irms_adc_result:PASS
+./test/Testadc.c:476:test_legacy_irms_adc_result_2:PASS
+./test/Testadc.c:487:test_legacy_irms_adc_result_3:PASS
+./test/Testadc.c:503:test_legacy_irms_adc_result_4:PASS
+./test/Testadc.c:520:test_legacy_irms_adc_result_4_MAX_DAC:PASS
+./test/Testadc.c:540:test_legacy_irms_adc_result_4a:PASS
+./test/Testadc.c:561:test_legacy_irms_adc_result_5:PASS
+./test/Testadc.c:584:test_legacy_irms_over_energy:PASS
+./test/Testadc.c:600:test_legacy_irms_over_energy_peak_detect:PASS
+./test/Testadc.c:623:test_legacy_timer_wands:PASS
+./test/Testadc.c:634:test_adc0_coco_stator:PASS
+./test/Testadc.c:642:test_poll_adc_data:PASS
+./test/Testadc.c:653:test_adc3_coco:FAIL: Function 'put_event' called more times than expected.
+./test/Testadc.c:669:test_adc3_coco_1:FAIL: Function 'put_event' called more times than expected.
+./test/Testadc.c:693:test_adc3_coco_2:FAIL: Expected 80 Was 83
+./test/Testadc.c:697:test_adc3_coco_8:FAIL: Function 'put_event' called less times than expected.
+./test/Testadc.c:717:test_adc3_coco_3:FAIL: Expected 80 Was 83
+./test/Testadc.c:728:test_adc3_coco_4:FAIL: Expected 64 Was 128
+./test/Testadc.c:732:test_adc3_coco_5:PASS
+./test/Testadc.c:745:test_adc3_coco_9:PASS
+./test/Testadc.c:757:test_adc3_coco_10:PASS
+./test/Testadc.c:770:test_adc3_coco_6:PASS
+./test/Testadc.c:781:test_adc3_coco_7:PASS
+./test/Testadc.c:793:test_ent_blendizer_1:PASS
+./test/Testadc.c:799:test_legacy_ent_timer_wands_1:PASS
+./test/Testadc.c:805:test_legacy_ent_timer_wands_2:PASS
+./test/Testadc.c:813:test_legacy_irms_adc_result_6:PASS
+./test/Testadc.c:864:test_irms_overcurrent_5:PASS
+./test/Testadc.c:889:test_irms2_adc_result_17:PASS
+./test/Testadc.c:908:test_dummy:PASS
+-----------------------
+57 Tests 6 Failures 0 Ignored
+FAIL

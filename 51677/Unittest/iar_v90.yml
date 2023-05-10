@@ -1,0 +1,117 @@
+tools_root: &tools_root 'C:\Program Files\IAR Systems\Embedded Workbench 9.0\'
+coverage_tool:
+         path:      ['C:\Program Files\BullseyeCoverage\bin\covc']
+linker_coverage_tool:
+         path:      ['C:\Program Files\BullseyeCoverage\bin\covc']		 
+includes:
+   - -i
+compiler:
+  path:             ['C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\iccarm.exe']
+  source_path:      '..\c\'
+  unit_tests_path:  &unit_tests_path './test/'
+  build_path:       &build_path './build/'
+  options:
+    - --dlib_config
+    - [*tools_root, 'arm\inc\c\DLib_Config_Normal.h']
+    - --no_cse
+    - --no_unroll
+    - --no_inline
+    - --no_code_motion
+    - --no_tbaa
+    - --no_clustering
+    - --no_scheduling 
+    - --debug
+    - --cpu_mode thumb
+    - --endian=little
+    - --cpu=Cortex-M4
+    - --fpu=VFPv4_sp
+    - --diag_suppress=Pa050
+    - --diag_suppress=Pe111
+    - -e
+    - -Ol
+  includes:
+    prefix: '-I'
+    items:
+      - 'C:\phase2_vv_k26_APL\51677\c\'
+      - '.\unity\src\'
+      - 'C:\phase2_vv_k26_APL\51677\include\'
+      - '.\lib\'
+      - [*tools_root, 'arm\CMSIS\Include']
+      - 'C:\phase2_vv_k26_APL\51677\lib\'
+      - 'C:\phase2_vv_k26_APL\51677\iar\'
+      - 'C:\phase2_vv_k26_APL\51677\asm\'
+      - '.\mocks\'
+      - [*tools_root, 'arm\CMSIS\Include']
+      - [*tools_root, 'arm\inc\']
+      - *unit_tests_path
+      - ['C:\Program Files\BullseyeCoverage\run']
+  defines:
+    prefix: '-D '
+    items:
+      - ARM_MATH_CM4
+      - _BullseyeCoverage
+      - REV5
+      - UNIT_TEST
+  object_files:
+    prefix: '-o'
+    extension: '.r79'
+    destination: *build_path
+linker:
+  path: [*tools_root, 'arm\bin\ilinkarm.exe']
+  options:
+    - --redirect _Printf=_PrintfTiny
+    - --redirect _Scanf=_ScanfSmall
+    - --semihosting
+    - --entry __iar_program_start
+    - --config
+    - [*tools_root, 'arm\config\generic.icf']
+    - [*tools_root, 'arm\CMSIS\Lib\IAR\iar_cortexM4lf_math.a']
+    - --vfe
+  object_files:
+    path: *build_path
+    extension: '.o'
+  bin_files:
+    prefix: '-o'
+    extension: '.out'
+    destination: *build_path
+  includes:
+     prefix: 
+     items: ['C:\Program Files\BullseyeCoverage\lib\libcov.a']	
+simulator:
+  path: [*tools_root, 'common\bin\CSpyBat.exe']
+  pre_support:
+    - --silent
+    - [*tools_root, 'arm\bin\armproc.dll']
+    - [*tools_root, 'arm\bin\armsim2.dll']
+  post_support_1:
+    - --plugin
+    - [*tools_root, 'arm\bin\armbat.dll']
+  # code_coverage:
+    # - --plugin
+    # - [*tools_root, 'common\plugins\CodeCoverage\CodeCoverage.dll']
+    # - --code_coverage_file .\build\cc_file_
+  post_support_2:
+    - --macro
+    - [*tools_root, 'arm\config\debugger\NXP\Kxx_Trace.dmac']
+    - --backend
+    - -B 
+    - --endian=little
+    - --cpu=Cortex-M4
+    - --fpu=VFPv4
+    - --semihosting
+    - -p
+    - [*tools_root, 'arm\CONFIG\debugger\NXP\MK26FN2M0xxx18.ddf']
+    - --device=MK26FN2M0xxx18
+    - -d
+    - sim
+
+   
+:cmock:
+  :ignore: :args_only
+  :plugins: 
+    - :ignore
+    - :callback
+  :includes:
+    - Types.h
+
+  

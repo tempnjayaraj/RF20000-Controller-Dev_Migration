@@ -1,0 +1,7 @@
+./test/Testfuse_blow.c:21:test_poll_adc:IGNORE: Need to remove the above three functions, not used anymore
+./test/Testfuse_blow.c:24:test_blow_fuse:PASS
+./test/Testfuse_blow.c:30:test_clear_fuse_blow:PASS
+./test/Testfuse_blow.c:36:test_dummy:PASS
+-----------------------
+4 Tests 0 Failures 1 Ignored
+OK

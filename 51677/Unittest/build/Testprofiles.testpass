@@ -1,0 +1,24 @@
+./test/Testprofiles.c:21:test_profile_manager:PASS
+./test/Testprofiles.c:26:test_save_profile:PASS
+./test/Testprofiles.c:44:test_save_profile_2:PASS
+./test/Testprofiles.c:57:test_load_profile:PASS
+./test/Testprofiles.c:80:test_load_profile_2:PASS
+./test/Testprofiles.c:104:test_load_profile_3:PASS
+./test/Testprofiles.c:128:test_load_profile_4:PASS
+./test/Testprofiles.c:152:test_load_profile_5:PASS
+./test/Testprofiles.c:176:test_load_profile_6:PASS
+./test/Testprofiles.c:199:test_load_profile_7:PASS
+./test/Testprofiles.c:222:test_load_profile_8:PASS
+./test/Testprofiles.c:246:test_load_profile_9:PASS
+./test/Testprofiles.c:269:test_load_profile_10:PASS
+./test/Testprofiles.c:293:test_load_profile_11:PASS
+./test/Testprofiles.c:316:test_load_profile_12:PASS
+./test/Testprofiles.c:339:test_load_profile_13:PASS
+./test/Testprofiles.c:362:test_load_profile_14:PASS
+./test/Testprofiles.c:385:test_load_profile_15:PASS
+./test/Testprofiles.c:410:test_load_profile_16:PASS
+./test/Testprofiles.c:434:test_cancel_new_profile:PASS
+./test/Testprofiles.c:446:test_dummy:PASS
+-----------------------
+21 Tests 0 Failures 0 Ignored
+OK

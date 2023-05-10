@@ -1,0 +1,5 @@
+./test/Testdma.c:13:test_DMAMUX_Init:PASS
+./test/Testdma.c:19:test_dummy:PASS
+-----------------------
+2 Tests 0 Failures 0 Ignored
+OK

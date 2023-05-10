@@ -1,0 +1,16 @@
+./test/Testusb_cdc.c:29:test_CDC_Engine1:PASS
+./test/Testusb_cdc.c:35:test_CDC_Engine2:PASS
+./test/Testusb_cdc.c:42:test_CDC_Engine3:PASS
+./test/Testusb_cdc.c:48:test_CDC_Engine4:PASS
+./test/Testusb_cdc.c:55:test_CDC_Engine5:PASS
+./test/Testusb_cdc.c:61:test_CDC_Engine6:PASS
+./test/Testusb_cdc.c:68:test_CDC_InterfaceReq_Handler1:PASS
+./test/Testusb_cdc.c:74:test_CDC_InterfaceReq_Handler2:PASS
+./test/Testusb_cdc.c:80:test_CDC_InterfaceReq_Handler3:PASS
+./test/Testusb_cdc.c:86:test_CDC_InterfaceReq_Handler4:PASS
+./test/Testusb_cdc.c:92:test_CDC_InterfaceReq_Handler5:PASS
+./test/Testusb_cdc.c:98:test_LWordSwap:PASS
+./test/Testusb_cdc.c:107:test_dummy:PASS
+-----------------------
+13 Tests 0 Failures 0 Ignored
+OK

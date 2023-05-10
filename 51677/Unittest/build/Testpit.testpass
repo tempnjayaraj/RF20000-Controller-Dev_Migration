@@ -1,0 +1,6 @@
+./test/Testpit.c:21:test_PIT_Init:IGNORE: Need test
+./test/Testpit.c:24:test_PIT_Config:PASS
+./test/Testpit.c:32:test_dummy:PASS
+-----------------------
+3 Tests 0 Failures 1 Ignored
+OK

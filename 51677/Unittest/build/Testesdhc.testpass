@@ -1,0 +1,26 @@
+./test/Testesdhc.c:34:test_download_sdhc_data:PASS
+./test/Testesdhc.c:40:test_download_sdhc_data_1:PASS
+./test/Testesdhc.c:46:test_download_sdhc_data_2:PASS
+./test/Testesdhc.c:52:test_download_sdhc_data_3:PASS
+./test/Testesdhc.c:58:test_download_sdhc_data_4:PASS
+./test/Testesdhc.c:64:test_esdhc_init:PASS
+./test/Testesdhc.c:71:test_sd_card_rw:PASS
+./test/Testesdhc.c:76:test_log2sdhc:PASS
+./test/Testesdhc.c:81:test_sd_card_init:PASS
+./test/Testesdhc.c:86:test_sd_card_init_2:PASS
+./test/Testesdhc.c:92:test_sd_card_log:PASS
+./test/Testesdhc.c:100:test_sd_card_log_1:PASS
+./test/Testesdhc.c:110:test_sd_card_log_2:PASS
+./test/Testesdhc.c:120:test_sd_card_log_3:PASS
+./test/Testesdhc.c:130:test_sd_card_log_4:PASS
+./test/Testesdhc.c:140:test_sd_card_log_5:PASS
+./test/Testesdhc.c:150:test_sd_card_log_6:PASS
+./test/Testesdhc.c:160:test_sd_card_log_7:PASS
+./test/Testesdhc.c:171:test_sd_card_log_8:PASS
+./test/Testesdhc.c:182:test_sd_card_log_9:PASS
+./test/Testesdhc.c:192:test_sd_card_log_10:PASS
+./test/Testesdhc.c:200:test_sd_card_log_11:PASS
+./test/Testesdhc.c:246:test_dummy:PASS
+-----------------------
+23 Tests 0 Failures 0 Ignored
+OK

@@ -1,0 +1,9 @@
+# ninja log v5
+1	237	7054302691945168	C:/RF20000-Controller-Dev_Migration/branches/48386/Debug/Obj/lib.o	164264f1e187555c
+29	303	7054302692657944	C:/RF20000-Controller-Dev_Migration/branches/48386/Debug/Obj/lib_func.o	a277ecce3c13eb04
+40	6033	7054302749686700	C:/RF20000-Controller-Dev_Migration/branches/48386/Debug/Obj/data.o	41e811a743502250
+6049	6175	7054302751405737	C:/RF20000-Controller-Dev_Migration/branches/48386/Debug/Exe/48386_K60.out_nochecksum	d5786c30708846a1
+6198	6228	7054302752016768	C:/RF20000-Controller-Dev_Migration/branches/48386/Debug/Exe/48386_K60.out	c7fed7c601ae9062
+6241	7094	7054302760680713	C:/RF20000-Controller-Dev_Migration/branches/48386/Debug/Exe/48386_K60.hex	479bc6b3fff6bd43
+7109	7296	0	Post-build command	90bc6b86cf1ada5b
+1	326	0	Post-build command	90bc6b86cf1ada5b

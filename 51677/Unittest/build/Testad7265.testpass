@@ -1,0 +1,7 @@
+./test/Testad7265.c:17:test_AD7265_Init:PASS
+./test/Testad7265.c:23:test_IRQ_AD7265_Read:PASS
+./test/Testad7265.c:44:test_AD7265_read_value:PASS
+./test/Testad7265.c:53:test_dummy:PASS
+-----------------------
+4 Tests 0 Failures 0 Ignored
+OK

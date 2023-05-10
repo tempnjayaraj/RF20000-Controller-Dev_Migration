@@ -1,0 +1,6 @@
+./test/Teststart.c:25:test_start:IGNORE: This file uses exact main app locations, so it is not unit tested
+./test/Teststart.c:32:test_rom2ram:IGNORE: This file uses exact main app locations, so it is not unit tested
+./test/Teststart.c:35:test_dummy:PASS
+-----------------------
+3 Tests 0 Failures 2 Ignored
+OK

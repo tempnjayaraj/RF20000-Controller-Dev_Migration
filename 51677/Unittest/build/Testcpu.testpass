@@ -1,0 +1,6 @@
+./test/Testcpu.c:13:test_system_reset:PASS
+./test/Testcpu.c:26:test_Write_Vtor:PASS
+./test/Testcpu.c:34:test_dummy:PASS
+-----------------------
+3 Tests 0 Failures 0 Ignored
+OK

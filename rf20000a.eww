@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\48386\48386_K60.ewp</path>
+    <scc>
+      <provider>Subversion</provider>
+      <projname>notused</projname>
+      <auxprojpath>notused</auxprojpath>
+    </scc>
+  </project>
+  <project>
+    <path>$WS_DIR$\51677\51677.ewp</path>
+    <scc>
+      <provider>Subversion</provider>
+      <projname>notused</projname>
+      <auxprojpath>notused</auxprojpath>
+    </scc>
+  </project>
+  <project>
+    <path>$WS_DIR$\boot\53826.ewp</path>
+    <scc>
+      <provider>Subversion</provider>
+      <projname>notused</projname>
+      <auxprojpath>notused</auxprojpath>
+    </scc>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

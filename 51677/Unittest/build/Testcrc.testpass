@@ -1,0 +1,6 @@
+./test/Testcrc.c:28:test_slow_crc16:IGNORE: need to test properly
+./test/Testcrc.c:42:test_fast_crc16:IGNORE: need to test properly
+./test/Testcrc.c:45:test_dummy:PASS
+-----------------------
+3 Tests 0 Failures 2 Ignored
+OK

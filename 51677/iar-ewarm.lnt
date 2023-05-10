@@ -1,0 +1,25 @@
+//
+//  Generic IAR Embedded Workbench options
+//
+// My PC-Lint installation location
+-iC:/lint/lnt/			
+
+//Project directories
+project-dir.lnt
+// Generic IAR compiler settings.
+iar-co.lnt		
+// IAR compiler target specific options
+iar-co-arm-v6.lnt
+//Misra Checks	
+C:\lint\lnt\au-misra2.lnt
+//  ***************************************************************************
+//  
+//  IAR Systems
+//  
+//  File name:  iar-ewarm.lnt
+//  
+//  Revision:   0.3 (alpha)
+//  
+//  Modified:   2011-11-03
+//  
+//  ***************************************************************************

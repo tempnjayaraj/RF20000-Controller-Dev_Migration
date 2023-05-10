@@ -1,0 +1,7 @@
+./test/Testeventbuffer.c:22:test_put_event_full_index:PASS
+./test/Testeventbuffer.c:36:test_get_event:PASS
+./test/Testeventbuffer.c:46:test_get_event_null_event:PASS
+./test/Testeventbuffer.c:65:test_dummy:PASS
+-----------------------
+4 Tests 0 Failures 0 Ignored
+OK

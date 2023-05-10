@@ -1,0 +1,7 @@
+./test/Testwdog.c:19:test_wdog_enable:PASS
+./test/Testwdog.c:24:test_wdog_disable:PASS
+./test/Testwdog.c:29:test_wdog_refresh:PASS
+./test/Testwdog.c:35:test_dummy:PASS
+-----------------------
+4 Tests 0 Failures 0 Ignored
+OK

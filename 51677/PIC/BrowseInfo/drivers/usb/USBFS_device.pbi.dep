@@ -1,0 +1,15 @@
+C:\RF20000-Controller-Dev_Migration\branches\51677\PIC\BrowseInfo\drivers\usb\USBFS_device.pbi: \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\lib\USBFS_device.c \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\lib\usb_cdc.h \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\lib\usb.h \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\include\common.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\lib\ring_buffer.h \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\lib\usb_reg.h \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\lib\Settings.h \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\c\mcg.h

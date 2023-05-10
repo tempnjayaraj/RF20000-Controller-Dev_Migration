@@ -1,0 +1,11 @@
+// Message hight
+-h1			
+
+// define the tab size as 4 characters
+-t4			
+
+// Build Window output format for IAR Embedded Workbench
+-format="%f(%l): %t %n: %m"
+
+// Don't break lines
+-width(0)

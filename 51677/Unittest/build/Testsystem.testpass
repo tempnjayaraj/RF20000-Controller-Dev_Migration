@@ -1,0 +1,10 @@
+./test/Testsystem.c:74:test_app_main:PASS
+./test/Testsystem.c:490:test_app_main_1:PASS
+./test/Testsystem.c:499:test_app_main_2:PASS
+./test/Testsystem.c:510:test_app_main_3:PASS
+./test/Testsystem.c:526:test_app_main_4:PASS
+./test/Testsystem.c:587:test_IDLE_state_entry:PASS
+./test/Testsystem.c:597:test_dummy:PASS
+-----------------------
+7 Tests 0 Failures 0 Ignored
+OK

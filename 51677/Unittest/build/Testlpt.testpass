@@ -1,0 +1,6 @@
+./test/Testlpt.c:14:test_LPT_Init:PASS
+./test/Testlpt.c:22:test_reset_pulse_cnt:PASS
+./test/Testlpt.c:28:test_dummy:PASS
+-----------------------
+3 Tests 0 Failures 0 Ignored
+OK

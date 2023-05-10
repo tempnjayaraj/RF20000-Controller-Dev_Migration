@@ -1,0 +1,16 @@
+./test/Testsensors.c:35:test_door_sensor_init:PASS
+./test/Testsensors.c:41:test_tube_sensors_init:PASS
+./test/Testsensors.c:64:test_poll_pump_sensors_tube0_door0_stator0:PASS
+./test/Testsensors.c:77:test_poll_pump_sensors_tube0_door0_stator0_1:PASS
+./test/Testsensors.c:91:test_poll_pump_sensors_tube1_door1_stator1:PASS
+./test/Testsensors.c:107:test_poll_pump_sensors_tube1_door1_stator1_2:PASS
+./test/Testsensors.c:121:test_poll_pump_sensors_tube1_door1_stator1_3:PASS
+./test/Testsensors.c:134:test_poll_pump_sensors_tube0_door1_stator0_DOOR_CLOSE:PASS
+./test/Testsensors.c:149:test_poll_pump_sensors_tube0_door1_stator0_DOOR_OPEN:PASS
+./test/Testsensors.c:164:test_poll_pump_sensors_tube0_door1_stator0_DOOR_OPEN_false:PASS
+./test/Testsensors.c:181:test_poll_pump_sensors_tube0_door1_stator0_ERROR:PASS
+./test/Testsensors.c:196:test_poll_pump_sensors_ERROR:PASS
+./test/Testsensors.c:213:test_dummy:PASS
+-----------------------
+13 Tests 0 Failures 0 Ignored
+OK

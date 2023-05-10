@@ -1,0 +1,1681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>4036771940</fileChecksum>
+    <configuration>
+        <name>Fixed Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\application\profiles.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\application\event_buffer.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\lpt\lpt.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\mcg\mcg.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\dma\dma.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\rcm\rcm.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\cpu\cpu.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\application\switches.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\application\notifications.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\wand\fuse_blow.o</file>
+            <file>$PROJ_DIR$\c\post.c</file>
+            <file>$PROJ_DIR$\c\state_machine.c</file>
+            <file>$PROJ_DIR$\c\isr.c</file>
+            <file>$PROJ_DIR$\c\event_buffer.c</file>
+            <file>$PROJ_DIR$\c\system.c</file>
+            <file>$PROJ_DIR$\c\can.c</file>
+            <file>$PROJ_DIR$\c\profiles.c</file>
+            <file>$PROJ_DIR$\c\sw_manager.c</file>
+            <file>$PROJ_DIR$\c\cpu.c</file>
+            <file>$PROJ_DIR$\c\dma.c</file>
+            <file>$PROJ_DIR$\c\adc.c</file>
+            <file>$PROJ_DIR$\c\buck.c</file>
+            <file>$PROJ_DIR$\c\ad7265.c</file>
+            <file>$PROJ_DIR$\c\switches.c</file>
+            <file>$PROJ_DIR$\c\buck_test.c</file>
+            <file>$PROJ_DIR$\c\can_debug.c</file>
+            <file>$PROJ_DIR$\c\esdhc.c</file>
+            <file>$PROJ_DIR$\c\audio.c</file>
+            <file>$PROJ_DIR$\c\init.c</file>
+            <file>$PROJ_DIR$\c\notifications.c</file>
+            <file>$PROJ_DIR$\c\led.c</file>
+            <file>$PROJ_DIR$\c\legacy_wand.c</file>
+            <file>$PROJ_DIR$\c\pump.c</file>
+            <file>$PROJ_DIR$\c\psu.c</file>
+            <file>$PROJ_DIR$\c\rcm.c</file>
+            <file>$PROJ_DIR$\c\fuse_blow.c</file>
+            <file>$PROJ_DIR$\c\pit.c</file>
+            <file>$PROJ_DIR$\include\data_init3.c</file>
+            <file>$PROJ_DIR$\c\zigbee.c</file>
+            <file>$PROJ_DIR$\c\footpedal.c</file>
+            <file>$PROJ_DIR$\c\lpt.c</file>
+            <file>$PROJ_DIR$\c\mcg.c</file>
+            <file>$PROJ_DIR$\c\rf.c</file>
+            <file>$PROJ_DIR$\c\ftfe.c</file>
+            <file>$PROJ_DIR$\c\sensors.c</file>
+            <file>$PROJ_DIR$\c\wand.c</file>
+            <file>$PROJ_DIR$\c\gui.c</file>
+            <file>$PROJ_DIR$\c\rtc.c</file>
+            <file>$PROJ_DIR$\c\wdog.c</file>
+            <file>$PROJ_DIR$\c\systick.c</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\wand\wand.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\temp\version-from-svn.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\startup\crc.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\can\can_debug.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\application\init.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\startup\start.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\psu\psu.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\can\can.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\application\sw_manager.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\application\post.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\sensors\sensors.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\buck\buck_test.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\esdhc\esdhc.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\wdog\wdog.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\systick\systick.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\pump\pump.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\pit\pit.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\audio\audio.o</file>
+            <file>$PROJ_DIR$\c\start.c</file>
+            <file>$PROJ_DIR$\c\version-from-svn.c</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\application\state_machine.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\wand\legacy_wand.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\adc\adc.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\gui\gui.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\rf\rf.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\rtc\rtc.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\led\led.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\adc\ad7265.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\application\isr.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\footpedal\zigbee.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\footpedal\footpedal.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\include\data_init3.o</file>
+            <file>$PROJ_DIR$\c\crc.c</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\application\system.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\ftfe\ftfe.o</file>
+            <file>$PROJ_DIR$\Fixed Debug\Obj\drivers\buck\buck.o</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\c\post.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\state_machine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\isr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\event_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\system.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\can.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\profiles.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\sw_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\cpu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\buck.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\ad7265.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\switches.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\buck_test.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\can_debug.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\esdhc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\audio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\notifications.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\led.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\legacy_wand.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\pump.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\psu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\rcm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\fuse_blow.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\pit.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\include\data_init3.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\zigbee.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\footpedal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\lpt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\mcg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\rf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\ftfe.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\sensors.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\wand.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\gui.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\wdog.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\systick.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\start.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\version-from-svn.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>PIC</name>
+        <outputs>
+            <file>$PROJ_DIR$\PIC\Obj\application\switches.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\can\can_debug.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\dma\dma.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\wdog\wdog.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\lpt\lpt.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\wand\wand.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\cpu\cpu.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\pit\pit.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\adc\ad7265.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\event_buffer.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\ftfe\ftfe.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\mcg\mcg.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\systick\systick.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\intrinsics.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\pump\pump.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\rcm\rcm.o</file>
+            <file>$PROJ_DIR$\PIC\Exe\51677.out</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\sw_manager.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\wand\legacy_wand.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\footpedal\footpedal.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\buck\buck_test.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\psu\psu.o</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Lib\IAR\iar_cortexM4lf_math.a</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\post.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\gui\gui.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\can\can.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlns.a</file>
+            <file>$PROJ_DIR$\PIC\Exe\51677.hex</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\startup\crc.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\48386\lib\lib.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\state_machine.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\init.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\notifications.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\startup\head.o.rsp</file>
+            <file>$PROJ_DIR$\PIC\Obj\startup\start.o</file>
+            <file>$PROJ_DIR$\PIC\List\51677.map</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\rf\rf.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\system.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\audio\audio.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\esdhc\esdhc.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\profiles.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\wand\fuse_blow.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\startup\head.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\isr.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\buck\buck.o</file>
+            <file>$PROJ_DIR$\..\48386\audio_lib.symbols</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\sensors\sensors.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\led\led.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\rtc\rtc.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\adc\adc.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iar_intrinsics_common.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\footpedal\zigbee.o</file>
+            <file>$PROJ_DIR$\c\profiles.h</file>
+            <file>$PROJ_DIR$\c\nv_data.h</file>
+            <file>$PROJ_DIR$\c\system.h</file>
+            <file>$PROJ_DIR$\c\esdhc.h</file>
+            <file>$PROJ_DIR$\c\adc.h</file>
+            <file>$PROJ_DIR$\c\version-from-svn.h</file>
+            <file>$PROJ_DIR$\c\esdhc_def.h</file>
+            <file>$PROJ_DIR$\c\post.c</file>
+            <file>$PROJ_DIR$\c\state_machine.c</file>
+            <file>$PROJ_DIR$\pre-build.bat</file>
+            <file>$PROJ_DIR$\c\isr.c</file>
+            <file>$PROJ_DIR$\c\sw_manager.h</file>
+            <file>$PROJ_DIR$\c\event_buffer.c</file>
+            <file>$PROJ_DIR$\c\system.c</file>
+            <file>$PROJ_DIR$\c\ad7265.h</file>
+            <file>$PROJ_DIR$\c\switches.h</file>
+            <file>$PROJ_DIR$\c\audio.h</file>
+            <file>$PROJ_DIR$\c\can.c</file>
+            <file>$PROJ_DIR$\c\profiles.c</file>
+            <file>$PROJ_DIR$\c\sw_manager.c</file>
+            <file>$PROJ_DIR$\c\cpu.c</file>
+            <file>$PROJ_DIR$\c\init.h</file>
+            <file>$PROJ_DIR$\c\post.h</file>
+            <file>$PROJ_DIR$\c\cpu.h</file>
+            <file>$PROJ_DIR$\c\dma.c</file>
+            <file>$PROJ_DIR$\c\adc.c</file>
+            <file>$PROJ_DIR$\c\buck.c</file>
+            <file>$PROJ_DIR$\c\notifications.h</file>
+            <file>$PROJ_DIR$\c\ad7265.c</file>
+            <file>$PROJ_DIR$\c\switches.c</file>
+            <file>$PROJ_DIR$\c\isr.h</file>
+            <file>$PROJ_DIR$\c\can.h</file>
+            <file>$PROJ_DIR$\c\buck_test.c</file>
+            <file>$PROJ_DIR$\c\can_debug.c</file>
+            <file>$PROJ_DIR$\c\can_debug.h</file>
+            <file>$PROJ_DIR$\c\dma.h</file>
+            <file>$PROJ_DIR$\c\esdhc.c</file>
+            <file>$PROJ_DIR$\c\audio.c</file>
+            <file>$PROJ_DIR$\c\event_buffer.h</file>
+            <file>$PROJ_DIR$\c\init.c</file>
+            <file>$PROJ_DIR$\c\notifications.c</file>
+            <file>$PROJ_DIR$\c\state_machine.h</file>
+            <file>$PROJ_DIR$\c\buck.h</file>
+            <file>$PROJ_DIR$\post-build.bat</file>
+            <file>$PROJ_DIR$\c\led.c</file>
+            <file>$PROJ_DIR$\c\legacy_wand.c</file>
+            <file>$PROJ_DIR$\include\arm_math.h</file>
+            <file>$PROJ_DIR$\include\common.h</file>
+            <file>$PROJ_DIR$\c\lpt.h</file>
+            <file>$PROJ_DIR$\c\pump.c</file>
+            <file>$PROJ_DIR$\c\psu.c</file>
+            <file>$PROJ_DIR$\c\rcm.c</file>
+            <file>$PROJ_DIR$\include\core_cm4.h</file>
+            <file>$PROJ_DIR$\c\rcm.h</file>
+            <file>$PROJ_DIR$\c\fuse_blow.c</file>
+            <file>$PROJ_DIR$\c\pit.c</file>
+            <file>$PROJ_DIR$\c\systick.h</file>
+            <file>$PROJ_DIR$\c\legacy_wand.h</file>
+            <file>$PROJ_DIR$\include\data_init3.c</file>
+            <file>$PROJ_DIR$\c\zigbee.c</file>
+            <file>$PROJ_DIR$\c\rf.h</file>
+            <file>$PROJ_DIR$\include\data_init3.h</file>
+            <file>$PROJ_DIR$\include\MK26F18.h</file>
+            <file>$PROJ_DIR$\c\footpedal.c</file>
+            <file>$PROJ_DIR$\c\mcg.h</file>
+            <file>$PROJ_DIR$\c\psu.h</file>
+            <file>$PROJ_DIR$\asm\fpu_asm.s</file>
+            <file>$PROJ_DIR$\c\footpedal.h</file>
+            <file>$PROJ_DIR$\c\fpu.h</file>
+            <file>$PROJ_DIR$\c\led.h</file>
+            <file>$PROJ_DIR$\c\lpt.c</file>
+            <file>$PROJ_DIR$\c\mcg.c</file>
+            <file>$PROJ_DIR$\c\pump.h</file>
+            <file>$PROJ_DIR$\c\rf.c</file>
+            <file>$PROJ_DIR$\c\rtc.h</file>
+            <file>$PROJ_DIR$\c\ftfe.c</file>
+            <file>$PROJ_DIR$\c\sensors.c</file>
+            <file>$PROJ_DIR$\c\sensors.h</file>
+            <file>$PROJ_DIR$\c\ftfe.h</file>
+            <file>$PROJ_DIR$\c\fuse_blow.h</file>
+            <file>$PROJ_DIR$\c\wand.c</file>
+            <file>$PROJ_DIR$\c\gui.c</file>
+            <file>$PROJ_DIR$\c\zigbee.h</file>
+            <file>$PROJ_DIR$\c\rtc.c</file>
+            <file>$PROJ_DIR$\c\wand.h</file>
+            <file>$PROJ_DIR$\c\pit.h</file>
+            <file>$PROJ_DIR$\c\wdog.c</file>
+            <file>$PROJ_DIR$\c\wdog.h</file>
+            <file>$PROJ_DIR$\c\systick.c</file>
+            <file>$PROJ_DIR$\c\gui.h</file>
+            <file>$PROJ_DIR$\c\head.s</file>
+            <file>$PROJ_DIR$\iar\rf20000.board</file>
+            <file>$PROJ_DIR$\include\MK60F15.h</file>
+            <file>$PROJ_DIR$\c\start.h</file>
+            <file>$PROJ_DIR$\c\head.h</file>
+            <file>$PROJ_DIR$\iar\K60_Fixed.icf</file>
+            <file>$PROJ_DIR$\c\start.c</file>
+            <file>$PROJ_DIR$\c\crc.h</file>
+            <file>$PROJ_DIR$\c\version-from-svn.c</file>
+            <file>$PROJ_DIR$\c\crc.c</file>
+            <file>$PROJ_DIR$\asm\crt0.s</file>
+            <file>$PROJ_DIR$\iar\K60_PIC.icf</file>
+            <file>$PROJ_DIR$\lib\usb_cdc.c</file>
+            <file>$PROJ_DIR$\c\commonTypes.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\lib\core_cm4.h</file>
+            <file>$PROJ_DIR$\lib\core_cm4_simd.h</file>
+            <file>$PROJ_DIR$\lib\usb.c</file>
+            <file>$PROJ_DIR$\lib\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\lib\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\c\bdm_ww_main.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\c\manta_wand_config.h</file>
+            <file>$PROJ_DIR$\c\ent_wand_config.h</file>
+            <file>$PROJ_DIR$\c\ct_app_ww.h</file>
+            <file>$PROJ_DIR$\c\msgWerewolf.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\usb\usb_cdc.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\usb\usb.o</file>
+            <file>$PROJ_DIR$\lib\ring_buffer.h</file>
+            <file>$PROJ_DIR$\lib\usb.h</file>
+            <file>$PROJ_DIR$\lib\usb_reg.h</file>
+            <file>$PROJ_DIR$\lib\Settings.h</file>
+            <file>$PROJ_DIR$\lib\arm_math.h</file>
+            <file>$PROJ_DIR$\lib\USBFS_device.c</file>
+            <file>$PROJ_DIR$\lib\usb_cdc.h</file>
+            <file>$PROJ_DIR$\lib\ring_buffer.c</file>
+            <file>$PROJ_DIR$\lib\usb_descriptor.h</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\usb\USBFS_device.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\drivers\usb\ring_buffer.o</file>
+            <file>$PROJ_DIR$\c\msgWerewolf.c</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\msgWerewolf.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\ct_app_ww.o</file>
+            <file>$PROJ_DIR$\PIC\Obj\application\bdm_ww_main.o</file>
+            <file>$PROJ_DIR$\c\ct_app_ww.c</file>
+            <file>$PROJ_DIR$\c\bdm_ww_main.c</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\PIC\Exe\51677.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 31 39 46 5 20 64 205 204 15 47 61 203 49 32 58 45 25 0 54 14 68 56 63 28 38 2 11 6 57 27 72 16 33 66 9 17 13 30 22 23 53 67 65 19 200 201 190 189 59 26 10 7 42 60 51 174</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 24 52</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\PIC\Exe\51677.hex</name>
+            <inputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 24</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\post.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 44 87 89 115 96 108 76 111 151 162 167 142 130 121 100 74 158 95 73 145 126 150 75 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\state_machine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 44 87 89 115 96 108 76 111 151 162 167 130 74 158 73 138 145 114 75 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\isr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 44 87 77 89 115 104 107 96 108 76 111 140 162 167 103 142 130 100 74 158 73 145 133 147 75 157 155 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\event_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 4 69 62 21 41 18 43 8 35 111</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\system.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 44 87 77 89 183 115 104 107 176 96 187 108 76 111 140 151 162 167 94 142 130 121 188 100 74 158 95 73 138 145 133 150 114 84 88 75 129 157 160 135 120 194 195 178 179 181 182 191 192 197</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\can.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 184 41 48 29 18 43 8 35 87 115 104 96 108 76 111 162 167 130 74 158 73 145 133 84 75 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\profiles.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 162 167 130 74 73 145 75 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\sw_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 162 167 130 74 73 145 84 75 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\cpu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 177 62 41 43 35 135 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 177 62 41 43 35 135 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 44 87 77 89 115 107 96 108 76 111 162 167 130 74 158 73 145 133 75 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\buck.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 162 167 130 74 158 73 145 75 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\ad7265.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 162 167 130 74 73 145 75 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\switches.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 44 87 89 115 107 96 108 76 111 152 162 167 130 74 158 73 145 133 88 75 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\buck_test.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 4 3 177 62 12 41 18 43 8 35 115 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\can_debug.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 107 96 108 76 111 162 167 130 74 73 145 75 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\esdhc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 170 108 76 79 111 151 162 167 130 100 74 73 145 84 75 160 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\audio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 44 87 89 115 96 108 76 111 162 167 130 74 158 73 145 75 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 44 87 77 89 115 104 96 170 108 76 111 140 162 167 94 142 130 74 158 73 138 145 147 84 75 157 160 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\notifications.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 55 12 41 48 29 18 43 8 35 44 87 89 115 107 96 108 76 111 162 167 130 100 74 158 73 138 145 75 129 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\led.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 162 167 142 130 100 74 73 138 145 75 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\legacy_wand.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 152 162 167 130 100 74 158 73 145 133 150 75 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\pump.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 107 96 108 76 111 162 167 130 100 74 158 73 138 145 133 150 75 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\psu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 162 167 130 100 74 73 138 145 75 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\rcm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 162 167 130 74 73 145 126 75 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\fuse_blow.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 177 62 41 43 35 87 152 135 120 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\pit.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 177 62 41 43 35 96 158 135 120 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\zigbee.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 155 87 115 96 108 76 111 162 167 130 74 73 145 75 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\footpedal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 140 162 167 130 74 73 145 75 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\lpt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 177 62 41 43 35 96 135 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\mcg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 177 62 41 43 35 137 135 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\rf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 162 167 130 74 158 73 145 133 75 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\ftfe.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 170 108 76 111 151 162 167 130 74 73 145 75 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\sensors.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 162 167 142 130 74 73 145 150 75 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\wand.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 55 12 41 48 29 18 43 8 35 44 87 89 115 107 96 108 186 76 111 162 167 130 185 100 74 158 73 145 133 114 75 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\gui.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 55 12 41 48 29 18 43 8 35 44 87 89 115 96 108 76 111 162 167 130 100 74 158 73 145 133 114 88 75 129 157 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 177 62 41 43 35 96 158 147 135 120 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\wdog.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 177 69 62 21 41 43 35 160 135 120 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\systick.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 162 167 130 137 74 73 145 75 129 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\head.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\start.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 34 177 69 62 21 12 41 48 29 18 43 70 8 35 44 87 77 115 96 170 108 76 111 141 152 162 167 94 103 130 137 74 158 73 138 145 166 75 160 135 120 195 178 179 181 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 41 43 35 170</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lib\usb_cdc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 177 62 41 43 35 135 120 194 178 179 181 182 191 192 197</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lib\usb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 96 108 76 111 162 167 130 74 73 145 75 135 120 194 195 178 179 181 182 191 192 197 199</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lib\USBFS_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 41 43 35 137 120 194 191 192 197 193</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lib\ring_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 201</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 41 43 35 191</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\msgWerewolf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 203</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 115 176 96 187 108 76 111 151 162 167 130 188 74 73 145 84 75 157 135 120 194 195 178 179 181 182 191 192 197</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\ct_app_ww.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 204</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\c\bdm_ww_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 205</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 37 1 71 4 3 177 69 62 21 12 41 48 29 18 43 8 35 87 183 115 176 96 187 108 76 111 162 167 130 188 74 73 145 75 157 135 120 194 195 178 179 181 182 191 192 197</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\post.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\state_machine.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\isr.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\event_buffer.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\system.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\can.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\profiles.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\sw_manager.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\cpu.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\dma.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\adc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\buck.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\ad7265.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\switches.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\buck_test.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\can_debug.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\esdhc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\audio.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\init.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\notifications.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\led.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\legacy_wand.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\pump.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\psu.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\rcm.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\fuse_blow.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\pit.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\include\data_init3.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\zigbee.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\footpedal.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\lpt.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\mcg.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\rf.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\ftfe.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\sensors.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\wand.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\gui.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\rtc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\wdog.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\systick.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\start.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\version-from-svn.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\crc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\lib\usb_cdc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\lib\usb.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\lib\USBFS_device.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\lib\ring_buffer.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\msgWerewolf.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\ct_app_ww.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\c\bdm_ww_main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>PIC Debug</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

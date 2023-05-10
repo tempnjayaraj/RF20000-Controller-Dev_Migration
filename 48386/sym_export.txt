@@ -1,0 +1,8 @@
+
+// This is the isymexport steering file.
+// It controls which symbols that are included in the isymexport output file.
+// It can also rename some of the symbols if that is desired.
+
+//show lib_*
+show __checksum*
+

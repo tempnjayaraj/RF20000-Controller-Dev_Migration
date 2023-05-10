@@ -1,0 +1,9 @@
+./test/Testrtc.c:17:test_RTC_Init:PASS
+./test/Testrtc.c:23:test_rtc_check_errors_RTC_SR_01:PASS
+./test/Testrtc.c:30:test_rtc_check_errors_RTC_SR_02:PASS
+./test/Testrtc.c:37:test_rtc_check_errors_RTC_SR_03:PASS
+./test/Testrtc.c:45:test_rtc_check_errors_RTC_SR_04:PASS
+./test/Testrtc.c:55:test_dummy:PASS
+-----------------------
+6 Tests 0 Failures 0 Ignored
+OK

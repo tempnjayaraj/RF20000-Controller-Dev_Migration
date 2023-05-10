@@ -1,0 +1,25 @@
+./test/Testusb.c:23:test_poll_usb:PASS
+./test/Testusb.c:28:test_USB_Testing_Read_Registers:PASS
+./test/Testusb.c:33:test_USB_Testing_Write_Registers:PASS
+./test/Testusb.c:38:test_USB_Init:PASS
+./test/Testusb.c:45:test_EP_OUT_Transfer:PASS
+./test/Testusb.c:52:test_USB_EP_OUT_SizeCheck:PASS
+./test/Testusb.c:58:test_USB_Set_Interface:PASS
+./test/Testusb.c:63:test_USB_StdReq_Handler:PASS
+./test/Testusb.c:68:test_USB_StdReq_Handler_cases:PASS
+./test/Testusb.c:100:test_USB_Setup_Handler:PASS
+./test/Testusb.c:122:test_USB_Endpoint_Setup_Handler:PASS
+./test/Testusb.c:139:test_USB_Handler:PASS
+./test/Testusb.c:153:test_USB_EP0_IN_Handler:PASS
+./test/Testusb.c:158:test_USB_EP0_Stall:PASS
+./test/Testusb.c:163:test_USB_EP0_OUT_Handler:PASS
+./test/Testusb.c:168:test_USB_Stall_Handler:PASS
+./test/Testusb.c:173:test_USB_Reset_Handler:PASS
+./test/Testusb.c:178:test_usb_isr:PASS
+./test/Testusb.c:201:test_rand_num:PASS
+./test/Testusb.c:207:test_d_atoc:PASS
+./test/Testusb.c:215:test_EP_IN_Transfer:PASS
+./test/Testusb.c:237:test_dummy:PASS
+-----------------------
+22 Tests 0 Failures 0 Ignored
+OK

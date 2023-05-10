@@ -1,0 +1,15 @@
+./test/Testrf.c:46:test_SmartWand_PWMInit:PASS
+./test/Testrf.c:59:test_LegacyWand_PWMInit:PASS
+./test/Testrf.c:66:test_FTM_Init:PASS
+./test/Testrf.c:73:test_ScopeSaver_Init:PASS
+./test/Testrf.c:81:test_IRQ_PWM_Fault_FTM_FMS_FAULTF2_MASK_false:PASS
+./test/Testrf.c:95:test_IRQ_PWM_Fault_FTM_FMS_FAULTF2_MASK_false_1:PASS
+./test/Testrf.c:107:test_IRQ_PWM_Fault_FTM_FMS_FAULTF2_MASK_true:PASS
+./test/Testrf.c:138:test_PWM_SoftStart:IGNORE: Remove PWM_SoftStart() declaration 
+./test/Testrf.c:147:test_PWM_SoftStart_DMA_Init:IGNORE: Remove PWM_SoftStart_DMA_Init() declaration
+./test/Testrf.c:150:test_legacy_wand_IRQ_PWM_fault:PASS
+./test/Testrf.c:161:test_FTM_Init_MANTA:PASS
+./test/Testrf.c:167:test_dummy:PASS
+-----------------------
+12 Tests 0 Failures 2 Ignored
+OK

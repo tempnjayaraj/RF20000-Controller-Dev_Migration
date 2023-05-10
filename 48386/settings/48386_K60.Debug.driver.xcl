@@ -1,0 +1,19 @@
+"--endian=little" 
+
+"--cpu=Cortex-M4" 
+
+"--fpu=VFPv4_SP" 
+
+"-p" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CONFIG\debugger\NXP\MK26FN2M0xxx18.ddf" 
+
+"--semihosting=none" 
+
+"--device=MK26FN2M0xxx18" 
+
+"--multicore_nr_of_cores=1" 
+
+
+
+

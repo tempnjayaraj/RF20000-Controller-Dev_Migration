@@ -1,0 +1,14 @@
+./test/Testinit.c:61:test_sys_init_0:PASS
+./test/Testinit.c:74:test_sys_init_1:PASS
+./test/Testinit.c:87:test_sys_init_2:PASS
+./test/Testinit.c:107:test_sys_init_3:PASS
+./test/Testinit.c:128:test_sys_init_4:PASS
+./test/Testinit.c:148:test_sys_init_5:PASS
+./test/Testinit.c:168:test_sys_init_6:PASS
+./test/Testinit.c:204:test_sys_init_7:PASS
+./test/Testinit.c:228:test_sys_init_8:PASS
+./test/Testinit.c:360:test_init_manager_2:PASS
+./test/Testinit.c:466:test_dummy:PASS
+-----------------------
+11 Tests 0 Failures 0 Ignored
+OK

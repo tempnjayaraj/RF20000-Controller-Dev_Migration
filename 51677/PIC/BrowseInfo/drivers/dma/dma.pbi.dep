@@ -1,0 +1,15 @@
+C:\RF20000-Controller-Dev_Migration\branches\51677\PIC\BrowseInfo\drivers\dma\dma.pbi: \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\c\dma.c \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\include\MK26F18.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\lib\core_cm4.h \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\lib\core_cmInstr.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\cmsis_iar.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\lib\core_cmFunc.h \
+  C:\RF20000-Controller-Dev_Migration\branches\51677\lib\core_cm4_simd.h

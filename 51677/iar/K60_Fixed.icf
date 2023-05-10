@@ -1,0 +1,89 @@
+/*###ICF### Section handled by ICF editor, don't touch! ****/
+/*-Editor annotation file-*/
+/* IcfEditorFile="$TOOLKIT_DIR$\config\ide\IcfEditor\cortex_v1_0.xml" */
+/*-Specials-*/
+define symbol __ICFEDIT_intvec_start__ = 0x00000000;
+/*-Memory Regions-*/
+define symbol __ICFEDIT_region_ROM_start__ = 0x00010000;
+define symbol __ICFEDIT_region_ROM_end__   = 0x0002FFFF;
+//define symbol __ICFEDIT_region_ROM_end__   = 0x0002DFFF;
+define symbol __ICFEDIT_region_RAM_start__ = 0x1FFF0410;
+define symbol __ICFEDIT_region_RAM_end__   = 0x1FFFFFFF;
+/*-Sizes-*/
+define symbol __ICFEDIT_size_cstack__ = 0x1000;
+define symbol __ICFEDIT_size_heap__   = 0x800;
+/**** End of ICF editor section. ###ICF###*/
+
+define symbol __region_RAM2_start__ = 0x20000000;
+define symbol __region_RAM2_end__ = 0x20010000;
+
+//define exported symbol __MASTER_VOLUME_SETTING = 0x0000E000;
+//define exported symbol __AMBIENT_VOLUME_SETTING = 0x0000E001;
+//define exported symbol __SERIAL_NUMBER = 0xE019;
+//define exported symbol __MFG_DATE_TIME = 0xE014;
+
+//define symbol __FlashConfig_start__ = 0x00000400;
+//define symbol __FlashConfig_end__ = 0x0000040f;
+
+//define exported symbol __VECTOR_TABLE = 0x00010000;
+define exported symbol __VECTOR_RAM2 = 0x1fff0000;
+
+//define exported symbol __BOOT_STACK_ADDRESS = __region_RAM2_end__ - 8;	//0x2000FFF8;
+define exported symbol __BOOT_STACK_ADDRESS = __ICFEDIT_region_RAM_end__ - 8;
+
+//define symbol __code_start__ = 0x00010000;
+define exported symbol ROM_address = 0x00010000;
+
+define symbol __code_start__ = 0x00010000;
+
+//
+// Define a memory region that covers the entire 4 GB addressible space of the
+// processor.
+//
+define memory mem with size = 4G;
+define region ROM_region   = mem:[from __ICFEDIT_region_ROM_start__   to __ICFEDIT_region_ROM_end__];
+//define region ROM_region = mem:[from __ICFEDIT_region_ROM_start__ to (__FlashConfig_start__ - 1)] | mem:[from (__FlashConfig_end__+1)  to __ICFEDIT_region_ROM_end__];
+define region RAM_region   = mem:[from __ICFEDIT_region_RAM_start__   to __ICFEDIT_region_RAM_end__] | mem:[from __region_RAM2_start__ to __region_RAM2_end__];
+//define region RAM_region   = mem:[from __ICFEDIT_region_RAM_start__   to __ICFEDIT_region_RAM_end__];
+
+define block CSTACK    with alignment = 8, size = __ICFEDIT_size_cstack__   { };
+define block HEAP      with alignment = 8, size = __ICFEDIT_size_heap__     { };
+
+//
+// Indicate that the read/write values should be initialized by copying from
+// flash.
+//
+initialize by copy { readwrite };
+//initialize manually { readwrite };
+initialize by copy { section .data};
+initialize by copy { section .textrw };
+do not initialize  { section .noinit };
+
+define block CodeRelocate { section .textrw_init };
+define block CodeRelocateRam { section .textrw };
+define block CHECKSUM { ro section .checksum_main };
+//
+// Place the interrupt vectors at the start of flash.
+//
+place at address mem:__ICFEDIT_intvec_start__ { readonly section .intvec };
+place at address mem:__code_start__ { readonly section .noinit };
+
+
+//
+// Place all read only items into ROM.
+//
+//place in ROM_region   { block ROPI, block CodeRelocate, first block CHECKSUM};
+//place in ROM_region   { block HEAD, block CodeRelocate};
+
+
+//
+// Place all read/write items into RAM.
+//
+place in RAM_region   { readwrite, block CodeRelocateRam,
+                        block CSTACK, block HEAP };
+
+"CHECKSUM":
+place in ROM_region   { readonly, block CodeRelocate, first block CHECKSUM};
+//place at end of ROM_region { ro section .checksum_main };
+//place in ROM_region { ro, last block CHECKSUM };
+keep { section .checksum_main };

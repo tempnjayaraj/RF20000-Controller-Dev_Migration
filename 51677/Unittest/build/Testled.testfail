@@ -1,0 +1,41 @@
+./test/Testled.c:26:test_pcf8575_iic_write_LED_RED:PASS
+./test/Testled.c:48:test_pcf8575_iic_write_LED_GRN:PASS
+./test/Testled.c:70:test_pcf8575_iic_write_LED_OFF:PASS
+./test/Testled.c:90:test_pcf8575_iic_write_LED_FLASHING_GRN:PASS
+./test/Testled.c:103:test_pcf8575_iic_write_case1_LED_RED:PASS
+./test/Testled.c:116:test_pcf8575_iic_write_case1_LED_GRN:PASS
+./test/Testled.c:129:test_pcf8575_iic_write_case1_LED_OFF:PASS
+./test/Testled.c:143:test_pcf8575_iic_write_case1_LED_FLASHING_GRN:PASS
+./test/Testled.c:153:test_pcf8575_iic_write_case2:PASS
+./test/Testled.c:165:test_pcf8575_iic_write_case3:PASS
+./test/Testled.c:178:test_PCF8575_I2C_StartTransmission:IGNORE: Need to check to incoming x for mode values
+./test/Testled.c:182:test_LED_Init:PASS
+./test/Testled.c:190:test_update_leds_0:PASS
+./test/Testled.c:203:test_update_leds_1:PASS
+./test/Testled.c:225:test_update_leds_led_red:PASS
+./test/Testled.c:243:test_update_leds_2:PASS
+./test/Testled.c:260:test_update_leds_3:PASS
+./test/Testled.c:277:test_update_leds_4:PASS
+./test/Testled.c:295:test_update_leds_5:FAIL: Function 'get_priming_status' called more times than expected.
+./test/Testled.c:317:test_update_leds_6:PASS
+./test/Testled.c:336:test_update_leds_7:PASS
+./test/Testled.c:356:test_update_leds_8:PASS
+./test/Testled.c:378:test_update_leds_8_fp_blink_duty_count:PASS
+./test/Testled.c:400:test_update_leds_9:PASS
+./test/Testled.c:447:test_startup_leds:PASS
+./test/Testled.c:496:test_shutdown_led_sequence:PASS
+./test/Testled.c:516:test_startup_led_init:PASS
+./test/Testled.c:523:test_update_leds_lw:FAIL: Function 'get_priming_status' called more times than expected.
+./test/Testled.c:547:test_update_leds_lw_wand_blink_duty_count:FAIL: Function 'get_priming_status' called more times than expected.
+./test/Testled.c:570:test_update_leds_lw_2:FAIL: Function 'get_priming_status' called more times than expected.
+./test/Testled.c:593:test_update_leds_lw_3:FAIL: Function 'get_priming_status' called more times than expected.
+./test/Testled.c:616:test_update_leds_lw_wired_footpedal:FAIL: Function 'get_priming_status' called more times than expected.
+./test/Testled.c:642:test_update_leds_lw_wired_footpedal_2:FAIL: Function 'get_priming_status' called more times than expected.
+./test/Testled.c:670:test_update_leds_lw_wired_footpedal_3:FAIL: Function 'get_priming_status' called more times than expected.
+./test/Testled.c:698:test_update_leds_pump_fault_last:FAIL: Function 'get_priming_status' called more times than expected.
+./test/Testled.c:728:test_update_leds_no_fw_no_wireless:FAIL: Function 'get_priming_status' called more times than expected.
+./test/Testled.c:760:test_update_leds_pump_on_last:FAIL: Function 'get_priming_status' called more times than expected.
+./test/Testled.c:793:test_dummy:PASS
+-----------------------
+38 Tests 11 Failures 1 Ignored
+FAIL

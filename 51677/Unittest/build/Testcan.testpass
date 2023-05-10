@@ -1,0 +1,11 @@
+./test/Testcan.c:56:test_read_flexcan:PASS
+./test/Testcan.c:74:test_FlexCAN_Write0x82Msg:IGNORE: No function definition
+./test/Testcan.c:79:test_FlexCAN_Init:IGNORE: 5 while waits in flexcan_init
+./test/Testcan.c:90:test_can_wdog_rx:PASS
+./test/Testcan.c:96:test_flexCAN_write_fast_msgs:PASS
+./test/Testcan.c:103:test_flexCAN_write_slow_msgs:PASS
+./test/Testcan.c:110:test_flexcan_init:PASS
+./test/Testcan.c:117:test_dummy:PASS
+-----------------------
+8 Tests 0 Failures 2 Ignored
+OK

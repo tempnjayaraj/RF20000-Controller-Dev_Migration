@@ -1,0 +1,232 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1340767165
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+CStepIntDis=_ 0
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title0=I0
+Symbol0=0 4
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+Title0=Ch0
+Symbol0=0 4
+Title1=Ch1
+Symbol1=0 4
+Title2=Ch2
+Symbol2=0 4
+Title3=Ch3
+Symbol3=0 4
+SumSortOrder=0
+Event0=1 1 1
+Event1=1 1 1
+Event2=1 1 1
+Event3=1 1 1
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[FlashMemory]
+FlashEraseSelection=0 1   
+[struct_types]
+Fmt0=VMOD_COMPENSATION-mod2_meas	4	0
+Fmt1=WAND_WEAR_PARAMETERS-lo_irms_threshold	4	0
+Fmt2=WAND_WEAR_PARAMETERS-lo_temp_threshold	4	0
+[array_types]
+Fmt0=q15_t[8]	3	0
+Fmt1=uint16_t[12]	4	0
+Fmt2=uint32_t[4]	4	0
+Fmt3=uint8_t[16]	4	0
+[watch_formats]
+Fmt0={W}0:((data[7] & 0x3F) << 17) | ((data[8] & 0xFF) << 10) | ((data[9] & 0xFF) << 2) | ((data[10] & 0xC0) >> 6)	3	0
+Fmt1={W}0:((time & 0x0000FF00) >> 2)	4	0
+Fmt2={W}0:(Mmc2SdramAddr[12] & 'R')	4	0
+Fmt3={W}0:(jmp_ptr+p_ropi_rwpi_header->start_offset+sizeof(ropi_rwpi_header_layout))	4	0
+Fmt4={W}0:(p_ropi_rwpi_header->ROM_address+p_ropi_rwpi_header->start_offset+sizeof(ropi_rwpi_header_layout))	4	0
+Fmt5={W}0:(time & 0x0000FF00)	4	0
+Fmt6={W}0:(uint32_t)&__vector_table2[0]	4	0
+Fmt7={W}0:(uint32_t)&checksum_end[4]	4	0
+Fmt8={W}0:(uint32_t)0x00030000	4	0
+Fmt9={W}0:(uint32_t)__APP_ROM_START	4	0
+Fmt10={W}0:(uint32_t)__vector_table2[0]	4	0
+Fmt11={W}0:(uint32_t)__vector_table2[n]	4	0
+Fmt12={W}0:SD_OCR	4	0
+Fmt13={W}0:SD_rca	4	0
+Fmt14={W}0:__APP_ROM_START	4	0
+Fmt15={W}0:__VECTOR_RAM	4	0
+Fmt16={W}0:__VECTOR_RAM2	4	0
+Fmt17={W}0:__checksum_begin_main	4	0
+Fmt18={W}0:__checksum_end_main	4	0
+Fmt19={W}0:__checksum_main	4	0
+Fmt20={W}0:app1_checksum	4	0
+Fmt21={W}0:app2_checksum	4	0
+Fmt22={W}0:app_ptr	4	0
+Fmt23={W}0:app_size	4	0
+Fmt24={W}0:app_start_address	4	0
+Fmt25={W}0:application	4	0
+Fmt26={W}0:args	4	0
+Fmt27={W}0:base_rca	4	0
+Fmt28={W}0:bin	3	0
+Fmt29={W}0:cal_factor	4	0
+Fmt30={W}0:calc_audio	4	0
+Fmt31={W}0:calc_checksum	4	0
+Fmt32={W}0:calc_main	4	0
+Fmt33={W}0:card_rca	4	0
+Fmt34={W}0:current_therapy_settings.ambient.alarm_threshold	3	0
+Fmt35={W}0:current_therapy_settings.log.mode	5	0
+Fmt36={W}0:data_cal_crc	4	0
+Fmt37={W}0:data_crc	4	0
+Fmt38={W}0:flash_idx	4	0
+Fmt39={W}0:flash_start	4	0
+Fmt40={W}0:gsfw_sdhc_ver	4	0
+Fmt41={W}0:jmp_address	4	0
+Fmt42={W}0:jmp_ptr	4	0
+Fmt43={W}0:len	4	0
+Fmt44={W}0:lw_adc_fault_count	3	0
+Fmt45={W}0:nv_data_crc	4	0
+Fmt46={W}0:pSDHC->CMDRSP[0]	4	0
+Fmt47={W}0:pSDHC->CMDRSP[0]&0xFFFF0000	4	0
+Fmt48={W}0:p_nv_data->active_app_ptr	4	0
+Fmt49={W}0:p_ropi_rwpi_header->ROM_address	4	0
+Fmt50={W}0:p_ropi_rwpi_header->ROM_address+p_ropi_rwpi_header->start_offset	4	0
+Fmt51={W}0:p_ropi_rwpi_header->ropi_bytes+3	4	0
+Fmt52={W}0:p_ropi_rwpi_header->start_offset	4	0
+Fmt53={W}0:response	4	0
+Fmt54={W}0:sd_rca	4	0
+Fmt55={W}0:sector	3	0
+Fmt56={W}0:time	4	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace1]
+Enabled=0
+ShowSource=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\wand.c}.2657.6" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\wand.c}.3665.12" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_DATA" "0x200000D7" 2 0 0 0 4294967295
+Bp3=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\wand.c}.795.9" 0 0 1 "" 0 "" 0
+Bp4=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\sw_manager.c}.184.3" 0 0 1 "" 0 "" 0
+Bp5=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\legacy_wand.c}.1490.5" 0 0 1 "" 0 "" 0
+Bp6=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\switches.c}.171.4" 0 0 1 "" 0 "" 0
+Bp7=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\pump.c}.295.7" 0 0 1 "" 0 "" 0
+Bp8=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\esdhc.c}.1111.9" 0 0 1 "" 0 "" 0
+Bp9=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\esdhc.c}.1173.7" 0 0 1 "" 0 "" 0
+Bp10=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\esdhc.c}.1242.7" 0 0 1 "" 0 "" 0
+Bp11=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\esdhc.c}.962.9" 0 0 1 "" 0 "" 0
+Bp12=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\esdhc.c}.955.7" 0 0 1 "" 0 "" 0
+Bp13=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\isr.c}.1170.3" 0 0 1 "" 0 "" 0
+Bp14=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\esdhc.c}.370.9" 0 0 1 "" 0 "" 0
+Bp15=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\post.c}.164.7" 0 0 1 "" 0 "" 0
+Bp16=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\pump.c}.1403.7" 0 0 1 "" 0 "" 0
+Bp17=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\pump.c}.1456.5" 0 0 1 "" 0 "" 0
+Bp18=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\pump.c}.1494.5" 0 0 1 "" 0 "" 0
+Bp19=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\start.c}.124.3" 0 0 1 "" 0 "" 0
+Bp20=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\sw_manager.c}.38.3" 0 0 1 "" 0 "" 0
+Bp21=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\esdhc.c}.841.9" 0 0 1 "" 0 "" 0
+Bp22=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\esdhc.c}.895.7" 0 0 1 "" 0 "" 0
+Bp23=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\esdhc.c}.530.13" 0 0 1 "" 0 "" 0
+Bp24=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\wand.c}.1817.3" 0 0 1 "" 0 "" 0
+Bp25=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\wand.c}.1827.3" 0 0 1 "" 0 "" 0
+Bp26=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\wand.c}.1626.3" 0 0 1 "" 0 "" 0
+Bp27=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\sw_manager.c}.259.3" 0 0 1 "" 0 "" 0
+Bp28=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\adc.c}.857.11" 0 0 1 "" 0 "" 0
+Bp29=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\adc.c}.1133.13" 0 0 1 "" 0 "" 0
+Bp30=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\51677\c\legacy_wand.c}.1498.3" 0 0 1 "" 0 "" 0
+Count=31
+[Aliases]
+Count=0
+SuppressDialog=0

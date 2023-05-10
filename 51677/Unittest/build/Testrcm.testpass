@@ -1,0 +1,6 @@
+./test/Testrcm.c:19:test_reset_monitor:PASS
+./test/Testrcm.c:30:test_software_reset:PASS
+./test/Testrcm.c:35:test_dummy:PASS
+-----------------------
+3 Tests 0 Failures 0 Ignored
+OK

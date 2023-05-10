@@ -1,0 +1,7 @@
+./test/Teststate_machine.c:22:test_do_nothing:PASS
+./test/Teststate_machine.c:28:test_init_shutdown:PASS
+./test/Teststate_machine.c:35:test_state_switch:PASS
+./test/Teststate_machine.c:44:test_dummy:PASS
+-----------------------
+4 Tests 0 Failures 0 Ignored
+OK

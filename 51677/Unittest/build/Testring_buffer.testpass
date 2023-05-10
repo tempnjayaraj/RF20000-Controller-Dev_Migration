@@ -1,0 +1,9 @@
+./test/Testring_buffer.c:29:test_Buffer_Init:PASS
+./test/Testring_buffer.c:36:test_Buffer_Request1:PASS
+./test/Testring_buffer.c:44:test_Buffer_Request2:PASS
+./test/Testring_buffer.c:53:test_Buffer_Request3:PASS
+./test/Testring_buffer.c:66:test_Buffer_Request4:PASS
+./test/Testring_buffer.c:79:test_dummy:PASS
+-----------------------
+6 Tests 0 Failures 0 Ignored
+OK

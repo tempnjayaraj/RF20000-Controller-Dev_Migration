@@ -1,0 +1,10 @@
+./test/Testsystick.c:35:test_systick_init:PASS
+./test/Testsystick.c:41:test_cbtmr_isr:PASS
+./test/Testsystick.c:75:test_cbtmr_init:PASS
+./test/Testsystick.c:83:test_cbtmr_reset_timer:PASS
+./test/Testsystick.c:93:test_cbtmr_unreg_callback:PASS
+./test/Testsystick.c:99:test_cbtmr_reg_callback:PASS
+./test/Testsystick.c:114:test_dummy:PASS
+-----------------------
+7 Tests 0 Failures 0 Ignored
+OK
